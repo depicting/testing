@@ -1,58 +1,85 @@
-body {
-  background-color: #d8d8d8;
-}
-h1 {
-  text-align: center;
-}
-.social-menu ul {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
   margin: 0;
-  display: flex;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-.social-menu ul li {
-  list-style: none;
-  margin: 0 10px;
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
-.social-menu ul li .fa {
-  color: #000000;
-  font-size: 25px;
-  line-height: 50px;
-  transition: 0.5s;
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
 }
-.social-menu ul li .fa:hover {
-  color: #ffffff;
+.wrapper .button:hover{
+  width: 200px;
 }
-.social-menu ul li a {
-  position: relative;
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: white;
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
   text-align: center;
-  transition: 0.5s;
-  transform: translate(0, 0px);
-  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
 }
-.social-menu ul li a:hover {
-  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
 }
-.social-menu ul li:nth-child(1) a:hover {
-  background-color: #3b5999;
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
 }
-.social-menu ul li:nth-child(2) a:hover {
-  background-color: #55acee;
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
 }
-.social-menu ul li:nth-child(3) a:hover {
-  background-color: #e4405f;
+.wrapper .button:nth-child(4):hover .icon{
+  background: #333;
 }
-.social-menu ul li:nth-child(4) a:hover {
-  background-color: #cd201f;
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
 }
-.social-menu ul li:nth-child(5) a:hover {
-  background-color: #0077b5;
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
 }
