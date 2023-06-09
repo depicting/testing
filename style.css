@@ -19,7 +19,7 @@ html,body{
   float: left;
   margin: 0 5px;
   overflow: hidden;
-  background: #000000;
+  background: #fff;
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
@@ -39,19 +39,19 @@ html,body{
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1):hover .icon{
-  background: #000000;
+  background: #4267B2;
 }
 .wrapper .button:nth-child(2):hover .icon{
-  background: #000000;
+  background: #1DA1F2;
 }
 .wrapper .button:nth-child(3):hover .icon{
-  background: #000000;
+  background: #E1306C;
 }
 .wrapper .button:nth-child(4):hover .icon{
-  background: #000000;
+  background: #333;
 }
 .wrapper .button:nth-child(5):hover .icon{
-  background: #000000;
+  background: #ff0000;
 }
 .wrapper .button .icon i{
   font-size: 25px;
@@ -59,7 +59,7 @@ html,body{
   transition: all 0.3s ease-out;
 }
 .wrapper .button:hover .icon i{
-  color: #ffffff;
+  color: #fff;
 }
 .wrapper .button span{
   font-size: 20px;
@@ -69,20 +69,17 @@ html,body{
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1) span{
-  color: #000000;
+  color: #4267B2;
 }
 .wrapper .button:nth-child(2) span{
-  color: #000000;
+  color: #1DA1F2;
 }
 .wrapper .button:nth-child(3) span{
-  color: #000000;
+  color: #E1306C;
 }
 .wrapper .button:nth-child(4) span{
-  color: #000000;
+  color: #333;
 }
 .wrapper .button:nth-child(5) span{
-  color: #000000;
-}
-span {
-  text-decoration: none;
+  color: #ff0000;
 }
