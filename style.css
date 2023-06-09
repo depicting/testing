@@ -83,3 +83,6 @@ html,body{
 .wrapper .button:nth-child(5) span{
   color: #ff0000;
 }
+span {
+  text-decoration: none;
+}
