@@ -59,7 +59,7 @@ html,body{
   transition: all 0.3s ease-out;
 }
 .wrapper .button:hover .icon i{
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .wrapper .button span{
   font-size: 20px;
