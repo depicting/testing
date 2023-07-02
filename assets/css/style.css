@@ -38,9 +38,7 @@ i{
 }
 .pfp-image{
     animation: ease-out 2s;
-    border-radius: 100%;
     object-fit: cover;
-    border: 0px solid #ffffff;
     display: block;
     margin-left: auto;
     margin-right: auto;
